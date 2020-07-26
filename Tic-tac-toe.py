@@ -1,3 +1,5 @@
+"""Tic-Tac-Toe game made in python with tkinter....This is 2 player(Everyone is a human not must be a computer) game"""
+"""Let's enjoy the game"""
 from tkinter import *
 from tkinter import messagebox
 from array import *
@@ -250,9 +252,5 @@ but_cross.place(x=280,y=140)
 
 but_circle = Button(window,width="3",text="O",fg="blue",font=("arial",25,"bold"),command=input_box_number_circle)
 but_circle.place(x=280,y=250)
-
-
-
-
 
 window.mainloop()
